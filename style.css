@@ -1,0 +1,252 @@
+.body{
+    background-color: black;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 95px;
+    font-size: 25px; 
+    padding-top: 40px;
+    padding-bottom: 165px;
+    padding-left: 40px;
+    width: 1200px;
+    height: 25px;
+    gap: 40px;
+}
+.b-links a{
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color:red;
+}
+.b-links :hover{
+    color: blue;
+}
+.my-name{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    bottom: 30px;
+}
+.img-header{
+    height: 600px;
+    width: 1250px;
+    opacity: 50%;
+}
+.para{
+    color: white;
+    font-size: 30px;
+
+}
+.pre-me h3{
+    color: white;
+    font-size: 35px;
+    margin-left: 125px;
+    animation-name: hello-ani;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes hello-ani{
+    0%{
+        color: blue;
+    }
+    25%{
+        color: red;
+    }
+    40%{
+        color: green;
+    }
+    70%{
+        color: yellow;
+    }
+}
+.sty-lin{
+    width: 300px;
+     position: relative;
+      right: 400px;
+      bottom: 50px;
+     border-color: red;
+}
+.icon-hello-close{
+    color: red;
+    font-size: 40px;
+    position: relative;
+    bottom: 65px;
+    left: 190px;
+}
+.icon-hello-open{
+    color: red;
+    font-size: 40px;
+    position: relative;
+    left: 45px;
+    bottom: 63px;
+}
+.pre-me h2{
+    color: white;
+    font-size: 45px;
+    margin-left: 215px;
+}
+.pre-me h1{
+    color: white;
+    font-size: 75px;
+    margin-right: 250px;
+}
+.pre-me{
+    padding-bottom: 95px;
+    gap: 30px;
+}
+.lang-pro{
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background-color: blue;
+    height: 90px;
+    margin-top: 65px;
+    opacity: 15%;
+}
+.lang-pro h3{
+    position: relative;
+    bottom: 30px;
+}
+.but{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding-left: 110px;
+    padding-bottom: 45px;
+}
+.got{
+    background-color: red;
+    height:65px ;
+    width: 300px;
+    border-radius: 10px ;
+    color: white;
+}
+.res {
+  height:65px ;
+  width: 300px;  
+  border-color: red;
+  border-radius: 10px;
+}
+
+
+.lang-icon{
+    width: 100px;
+    height: 70px;
+}
+.debut{
+    display: flex;
+    justify-content: space-around;
+}
+.text-about{
+    color: white;
+}
+.list-about{
+    color: white;
+}
+.about-me{
+    display: flex;
+    justify-content: space-around;
+}
+.text-about h3{
+    font-size: 60px;
+    color: red;
+}
+.text-about p{
+    font-size: 30px;
+}
+.list-about li{
+    list-style: none;
+    font-size: 30px;
+    padding-top: 70px;
+    
+}
+.li1{
+    position: relative;
+    right: 55px;
+    bottom: 35px;
+    font-size: 45px;
+    color: red;
+}
+.performace{
+    color: white;
+}
+.per-pos{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+.per-pos p{
+    font-size: 25px;
+}
+.per-pos h2{
+    font-size: 50px;
+}
+.icon-per1{
+    font-size: 40px;
+    color: red;
+    position: relative;
+    bottom: 80px;
+    left: 80px;
+}
+.icon-per3{
+     font-size: 40px;
+    color: red;
+    position: relative;
+    bottom: 85px;
+    left: 35px;
+}
+.icon-per2{
+    font-size: 65px ;
+    color: red;
+    position: relative;
+    bottom: 85px;
+    left: 65px;
+}
+.pro{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.description h4{
+    color: white;
+    font-size: 75px;
+}
+.description p{
+    color: white;
+    font-size: 35px;
+}
+.projects h6{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 60px;
+}
+.description a{
+    font-size: 35px;
+    color: white;
+}
+.lang_2{
+    color: white;
+    position: relative;
+    bottom: 40px;
+    left: 65px;
+    background-color: blue;
+    width: 30px;
+}
+.description h3{
+    color: white;
+    background-color: blue;
+    width: 55px;
+}
+
+.header{
+    
+}
