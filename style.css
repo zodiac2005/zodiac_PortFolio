@@ -230,7 +230,7 @@
     font-size: 60px;
 }
 .description a{
-    font-size: 35px;
+    font-size: 25px;
     color: white;
 }
 .lang_2{
@@ -268,9 +268,11 @@
     font-size: 45px;
 }
 .fo2{
-    padding-top: 115px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    bottom: -115px;
+    gap: 35px;
 }
 .fo2 input{
     height: 25px;
