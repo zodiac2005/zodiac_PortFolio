@@ -246,7 +246,36 @@
     background-color: blue;
     width: 55px;
 }
-
+.img-project img{
+    position: relative;
+    bottom: -85px;
+    height: 500px;
+    width: 200px;
+}
+.contact{
+    padding-top: 65px;
+}
+.form{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.fo1 h4{
+    color: red;
+    font-size: 55px;
+}
+.fo1 p{
+    font-size: 45px;
+}
+.fo2{
+    padding-top: 115px;
+    display: flex;
+    flex-direction: column;
+}
+.fo2 input{
+    height: 25px;
+    width: 200px;
+}
 .header{
     
 }
