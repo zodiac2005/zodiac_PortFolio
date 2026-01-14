@@ -92,7 +92,7 @@
 }
 .pre-me h1{
     color: white;
-    font-size: 75px;
+    font-size: 55px;
     margin-right: 250px;
 }
 .pre-me{
@@ -124,17 +124,45 @@
 .got{
     background-color: red;
     height:65px ;
-    width: 300px;
+    width: 150px;
     border-radius: 10px ;
     color: white;
 }
 .res {
   height:65px ;
-  width: 300px;  
+  width: 150px;  
   border-color: red;
   border-radius: 10px;
 }
+.my-img img{
+    position: absolute;
+    bottom: -330px;
+    right: 100px;
+    height:800px ;
+    opacity: 95%;
+    z-index: 2;
+}
+.cercle-blue{
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    opacity: 50%;
+    position: absolute;
+    right: 50px;
 
+    
+}
+.cercle-black{
+    background-color: black;
+    height: 460px;
+    width: 460px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -120px;
+    right: 70px;
+    
+}
 
 .lang-icon{
     width: 100px;
@@ -212,7 +240,13 @@
 .pro{
     display: flex;
     justify-content: space-around;
-    gap: 30px;
+}
+.link-pro{
+    border-color: red;
+    width: 170px;
+    transform: rotate(90deg);
+    position: relative;
+    bottom: 66px;
 }
 
 .description h4{
@@ -249,7 +283,7 @@
 .img-project img{
     position: relative;
     bottom: -85px;
-    height: 500px;
+    height: 400px;
     width: 200px;
 }
 .contact{
@@ -262,21 +296,30 @@
 }
 .fo1 h4{
     color: red;
-    font-size: 55px;
+    font-size: 75px;
 }
 .fo1 p{
     font-size: 45px;
+}
+.fo1 button{
+    background-color: red;
+    width: 150px;
+    height: 55px;
+    font-size: 25px;
 }
 .fo2{
     display: flex;
     flex-direction: column;
     position: relative;
     bottom: -115px;
-    gap: 35px;
+    gap: 25px;
 }
 .fo2 input{
-    height: 25px;
-    width: 200px;
+    height: 35px;
+    width: 250px;
+}
+.fo2 label{
+    font-size: 30px;
 }
 .header{
     
