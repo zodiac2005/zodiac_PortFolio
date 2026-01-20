@@ -243,15 +243,21 @@
 }
 .link-pro{
     border-color: red;
-    width: 170px;
+    width: 130px;
     transform: rotate(90deg);
     position: relative;
-    bottom: 66px;
+    bottom: 85px;
 }
+.description{
+position: relative;
+bottom: 60px;
 
+}
 .description h4{
     color: white;
     font-size: 75px;
+    position: relative;
+    bottom: 95px;
 }
 .description p{
     color: white;
@@ -264,25 +270,80 @@
     font-size: 60px;
 }
 .description a{
-    font-size: 25px;
+    font-size: 30px;
     color: white;
 }
-.lang_2{
+.description h5{
     color: white;
-    position: relative;
-    bottom: 40px;
-    left: 65px;
     background-color: blue;
-    width: 30px;
+    font-size: 20px;
+    width: 55px;
+    position: absolute;
+    bottom: 215px;
 }
+.description button{
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    margin-left: 35px;
+}
+.description button:hover{
+    background-color: brown;
+}
+.btgit{
+    text-decoration: none;
+}
+.sec-4{
+    margin-top: 45px;
+    background-color: rgb(86, 8, 8);
+}
+.name-desc{
+    display: flex;
+    flex-direction: column;
+    gap: -20px;
+}
+.name-desc h4{
+display: flex;
+justify-content: center;
+color: white;
+font-size: 25px;
+}
+.name-desc p{
+display: flex;
+justify-content: center;
+color: white;
+font-size: 20px;
+
+}
+
+
+.srt-contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 45px;
+    gap: 15px;
+}
+.contacts :hover{
+    color: brown;
+}
+
 .description h3{
     color: white;
     background-color: blue;
     width: 55px;
+    position: absolute;
+    left: 70px;
+    bottom: 230px;
 }
 .img-project img{
     position: relative;
-    bottom: -85px;
+    bottom: 95px;
     height: 400px;
     width: 200px;
 }
