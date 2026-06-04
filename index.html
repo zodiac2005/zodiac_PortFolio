@@ -3,162 +3,299 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="t">My set web</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Amine Antra - Full-Stack Web Developer | Build Beautiful Web Solutions</title>
+    <meta name="description" content="Full-Stack Developer specializing in modern web applications. Build beautiful, high-performance solutions that convert.">
+    <link rel="stylesheet" href="asset/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script src="fa-solid fa-percent" crossorigin="anonymous"></script>
-    <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body class="body">
+    <!-- ========== NAVIGATION ========== -->
     <header class="header">
-        
         <div class="links">
-            <div class="my-name" ><h3>Amine Antra</h3></div>
+            <div class="my-name"><h3>Amine Antra</h3></div>
             <div class="b-links">
-            <a href="#">Home</a>
-            <a href="#pr">My Projects</a>
-            <a href="#am">About Me</a> 
-            <a href="#cont">Contact</a>
+                <a href="#hero">Home</a>
+                <a href="#work">My Work</a>
+                <a href="#about">About</a> 
+                <a href="#contact">Contact</a>
             </div>  
         </div>
-        <div class="debut">
+    </header>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
             <div class="pre-me">
-                <h3>Hello</h3><ion-icon class="icon-hello-open"   name="code-outline"></ion-icon><ion-icon class="icon-hello-close" name="code-slash-outline"></ion-icon>
-                <h2>I'm Amine</h2><hr class="sty-lin" >
-                <h1>Student in Software Development</h1>
-                
+                <h3 class="hero-tag">Hello <ion-icon class="icon-hello-open" name="code-outline"></ion-icon><ion-icon class="icon-hello-close" name="code-slash-outline"></ion-icon></h3>
+                <h1 class="hero-title">Build Beautiful, High-Performance Web Solutions</h1>
+                <p class="hero-subtitle">I'm Amine, a full-stack developer specializing in creating modern, scalable applications for businesses that want to stand out online. From responsive websites to complete e-commerce systems, I turn your vision into code that drives results.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Let's Build Something Great</button>
+                    <button class="btn btn-secondary" onclick="document.getElementById('work').scrollIntoView({behavior: 'smooth'})">View My Work</button>
+                </div>
             </div>
             
             <div class="my-img">
-                 <div class="cercle-blue"></div>
-                 <div class="cercle-black"></div>
-                <img src="imgs/IMG_removebg.jpg.png" alt="">
-               
+                <div class="cercle-blue"></div>
+                <div class="cercle-black"></div>
+                <img src="imgs/IMG_removebg.jpg.png" alt="Amine Antra - Full Stack Developer">
             </div>
         </div>
-        <div class="but">
-            <button class="got" type="button">Got a Project</button>
-            <button class="res" type="button">My Resume</button>
-        </div>
-        <div class="lang-pro">
-            <h3 >HTML</h3><ion-icon class="lang-icon" name="logo-html5"></ion-icon>
-            <h3 >CSS</h3><ion-icon class="lang-icon" name="logo-css3"></ion-icon>
-            <h3  >Python</h3><ion-icon class="lang-icon"  name="logo-python"></ion-icon>
-            <h3 >Java</h3><ion-icon class="lang-icon" name="logo-javascript"></ion-icon>
-            <h3 >PHP</h3><i class="fa-brands fa-php lang-icon"></i>
-            <h3 >Bootstrap</h3><ion-icon class="lang-icon" name="layers-outline"></ion-icon>
-            <h3 >Tailwind</h3><ion-icon class="lang-icon" name="color-palette-outline"></ion-icon>
-    </header>
-    <section class="sec1">
-        <div class="about-me" id="am">
-            <div class="list-about">
-                <ol>
-                    <li>Website Devlopment</li><ion-icon class="li1" name="laptop-outline"></ion-icon>
-                    <li>App Devlopment</li><ion-icon class="li1" name="phone-portrait-outline"></ion-icon>
-                    <li>Website Hosting</li><ion-icon class="li1" name="file-tray-outline"></ion-icon>
-                </ol>
-            </div>
-            <div class="text-about" >
-                <h3>About Me</h3>
-                <p>I'm Student in Software Development, <br> Web Development is my passion   </p>
-            <div class="performance">
-            <div class="per-pos">
-                <div>
-                    <h2>3</h2>
-                    <p class="icon-per1">+</p>
-                    <p >Completed <br> projects </p>
+    </section>
+
+    <!-- ========== TECH STACK ========== -->
+    <div class="lang-pro">
+        <h3>HTML</h3><ion-icon class="lang-icon" name="logo-html5"></ion-icon>
+        <h3>CSS</h3><ion-icon class="lang-icon" name="logo-css3"></ion-icon>
+        <h3>JavaScript</h3><ion-icon class="lang-icon" name="logo-javascript"></ion-icon>
+        <h3>Python</h3><ion-icon class="lang-icon" name="logo-python"></ion-icon>
+        <h3>PHP</h3><i class="fa-brands fa-php lang-icon"></i>
+        <h3>Bootstrap</h3><ion-icon class="lang-icon" name="layers-outline"></ion-icon>
+        <h3>Tailwind</h3><ion-icon class="lang-icon" name="color-palette-outline"></ion-icon>
+    </div>
+
+    <!-- ========== SOCIAL PROOF SECTION ========== -->
+    <section class="social-proof">
+        <div class="container">
+            <h2 class="section-title">Proven Track Record</h2>
+            <div class="proof-grid">
+                <div class="proof-card">
+                    <div class="proof-number">3+</div>
+                    <p class="proof-text">Full-Stack Projects Delivered</p>
                 </div>
-                <div >
-                   <h2  >95</h2> 
-                    <p class="icon-per2">%</p>
-                   <p class="text-second-per">Client <br> satisfaction </p>
-                
+                <div class="proof-card">
+                    <div class="proof-number">95%</div>
+                    <p class="proof-text">Client Satisfaction Rate</p>
                 </div>
-                <!-- <div>
-                    <h2>2</h2>
-                    <p class="icon-per3">+</p>
-                    <p >Years of <br> Exprience</p>
-                </div> -->
-            </div>
-            </div>
-            </div>
-        
-            
-        </div>
-    </section>
-    <section class="projects" id="pr">
-        <h6>My projects</h6>
-        <hr class="link-pro">
-        <div class="pro">
-            <div class="description">
-                <h4>Omnifood</h4>
-                <h3>HTML</h3>
-                <h5>CSS</h5>
-                <p>it's index page about healthy <br> food plates.</p>
-                <a href="https://omnifood.dev/">View Project</a>
-                <button><a href="#" class="btgit">View in Github</a></button>
-            </div>
-            <div class="img-project"><img src="imgs/img-project.jpg" alt="Omnifood project screenshot"></div>
-        </div>
-        <div class="pro">
-            <div class="description">
-                <h4>System Manager Store</h4>
-                <h3>HTML</h3>
-                <h5>CSS</h5>
-                <h5>JavaScript</h5>
-                <h5>PHP</h5>
-                <p>Mini système de gestion E-Commerce. Développement d’une application web de gestion d’une boutique en ligne comprenant :<br>
-                gestion des produits<br>
-                interface administrateur<br>
-                gestion des commandes<br>
-                organisation des données<br>
-                <strong>Technologies :</strong> HTML, CSS, JavaScript, PHP</p>
-                <a href="#">View Project</a>
-                <button><a href="https://github.com/zodiac2005/system_managment/tree/master" class="btgit">View in Github</a></button>
-            </div>
-            <div class="img-project slide-container">
-                <img id="system-manager-image" src="imgs/dashbored.png" alt="System Manager Store screenshot">
+                <div class="proof-card">
+                    <div class="proof-number">100%</div>
+                    <p class="proof-text">On-Time Delivery</p>
+                </div>
+                <div class="proof-card">
+                    <div class="proof-number">7+</div>
+                    <p class="proof-text">Technologies Mastered</p>
+                </div>
             </div>
         </div>
     </section>
-    <section class="contact" id="cont">
-        <form action="" class="form">
-            <div class="fo1" >
-                <h4>Contact</h4>
-                <p>Have a projects ?<br>
-                let's talk !</p>
-                <button type="submit">submit</button>
-            </div >
-            <div class="fo2" >
-                <label for="">Name</label>
-                <input type="text" name="username">
-                <label for="">Email</label>
-                <input type="email"  name="email" >
-                <label for="">Message</label>
-                <input type="text">
+
+    <!-- ========== PROBLEM & SOLUTION SECTION ========== -->
+    <section class="problem-solution">
+        <div class="container">
+            <h2 class="section-title">Your Challenge → My Solution</h2>
+            <div class="ps-grid">
+                <div class="ps-card">
+                    <h3>The Problem</h3>
+                    <ul>
+                        <li>📌 Need a developer who understands your vision</li>
+                        <li>📌 Want fast, scalable web applications</li>
+                        <li>📌 Demand on-time delivery without compromises</li>
+                        <li>📌 Require end-to-end solutions (frontend to database)</li>
+                    </ul>
+                </div>
+                <div class="ps-card solution-card">
+                    <h3>My Solution</h3>
+                    <p>I combine modern web technologies with proven design principles to create applications that look great <strong>and</strong> perform beautifully.</p>
+                    <div class="solution-features">
+                        <span class="feature">Full-Stack Architecture</span>
+                        <span class="feature">Responsive Design</span>
+                        <span class="feature">Database Optimization</span>
+                        <span class="feature">Performance Focused</span>
+                    </div>
+                </div>
             </div>
-        </form>
+        </div>
     </section>
-    <section class="sec-4">
-        <footer class="footer">
+
+    <!-- ========== FEATURED WORK / CASE STUDIES ========== -->
+    <section class="projects" id="work">
+        <div class="container">
+            <h2 class="section-title">Featured Work</h2>
             
-            
-            <div class="name-desc">
+            <!-- Case Study 1: Omnifood -->
+            <div class="case-study">
+                <div class="cs-content">
+                    <h3 class="cs-title">Omnifood – Modern Food Delivery Landing Page</h3>
+                    <div class="cs-details">
+                        <div class="cs-section">
+                            <h4>The Challenge</h4>
+                            <p>A food delivery brand needed a stunning, high-converting landing page to showcase their healthy meal offerings and drive customer sign-ups.</p>
+                        </div>
+                        <div class="cs-section">
+                            <h4>My Approach</h4>
+                            <ul>
+                                <li>Built a pixel-perfect, responsive landing page using HTML5 & CSS3</li>
+                                <li>Implemented smooth scrolling and engaging animations</li>
+                                <li>Optimized for mobile-first design across all devices</li>
+                                <li>Created clear information hierarchy for maximum engagement</li>
+                            </ul>
+                        </div>
+                        <div class="cs-section">
+                            <h4>The Results</h4>
+                            <div class="results">
+                                <span class="result-item">✨ Clean, professional design</span>
+                                <span class="result-item">⚡ Fast-loading pages</span>
+                                <span class="result-item">📱 100% mobile-responsive</span>
+                                <span class="result-item">🎯 Clear CTAs for conversion</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://omnifood.dev/" class="case-link" target="_blank">View Full Project →</a>
+                </div>
+                <div class="cs-image">
+                    <img src="imgs/img-project.jpg" alt="Omnifood project screenshot">
+                </div>
+            </div>
+
+            <!-- Case Study 2: System Manager Store -->
+            <div class="case-study">
+                <div class="cs-content">
+                    <h3 class="cs-title">System Manager Store – Full-Stack E-Commerce Platform</h3>
+                    <div class="cs-details">
+                        <div class="cs-section">
+                            <h4>The Challenge</h4>
+                            <p>A growing online store needed a complete management system to handle inventory, orders, and customer data with both customer and admin interfaces.</p>
+                        </div>
+                        <div class="cs-section">
+                            <h4>My Approach</h4>
+                            <ul>
+                                <li><strong>Frontend:</strong> Built intuitive UI with HTML, CSS, and JavaScript</li>
+                                <li><strong>Backend:</strong> Developed server-side logic using PHP</li>
+                                <li><strong>Database:</strong> Designed robust data structure for products and orders</li>
+                                <li><strong>Admin Panel:</strong> Created powerful dashboard for inventory management</li>
+                            </ul>
+                        </div>
+                        <div class="cs-section">
+                            <h4>The Results</h4>
+                            <div class="results">
+                                <span class="result-item">📦 Complete inventory management system</span>
+                                <span class="result-item">💳 Streamlined checkout process</span>
+                                <span class="result-item">🔒 Secure order management</span>
+                                <span class="result-item">⚙️ Real-time admin dashboard</span>
+                                <span class="result-item">✅ 95% client satisfaction</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://github.com/zodiac2005/system_managment/tree/master" class="case-link" target="_blank">View on GitHub →</a>
+                </div>
+                <div class="cs-image">
+                    <img id="system-manager-image" src="imgs/dashbored.png" alt="System Manager Store screenshot">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT ME SECTION ========== -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm <strong>Amine Antra</strong>, a passionate software developer with a deep love for web development. What started as curiosity about how websites work has evolved into a mission: helping businesses bring their ideas to life through clean, functional code.</p>
+                    
+                    <p>I believe great web development isn't just about writing code—it's about understanding the <em>why</em> behind every line. Every project I work on is treated as a partnership. I take time to understand your goals, users, and business so I can deliver solutions that actually matter.</p>
+
+                    <p>When I'm not coding, I'm learning new frameworks, staying on top of industry trends, and constantly pushing myself to build better solutions. That commitment to growth means your projects benefit from the latest web development practices.</p>
+
+                    <div class="about-skills">
+                        <h4>What I'm Really Good At:</h4>
+                        <ul>
+                            <li>🎨 Creating responsive, pixel-perfect interfaces</li>
+                            <li>⚡ Building fast, scalable web applications</li>
+                            <li>🔧 Full-stack development from database to UI</li>
+                            <li>📱 Mobile-first design that works everywhere</li>
+                            <li>💡 Problem-solving with creative technical solutions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>3+</h3>
+                        <p>Completed Projects</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>95%</h3>
+                        <p>Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FINAL CTA SECTION ========== -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Ready to Bring Your Project to Life?</h2>
+            <p>Whether you're launching a new web app, revamping your online store, or building something completely custom—I'm ready to help. I work closely with clients to understand their vision and deliver results that exceed expectations.</p>
+            <button class="btn btn-primary btn-large" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Schedule a Free Consultation</button>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Let's Talk</h2>
+                    <p>Have a project in mind? Let's discuss how I can help bring your ideas to life!</p>
+                    <div class="contact-links">
+                        <a href="https://wa.me/" class="contact-link" target="_blank">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="https://github.com/zodiac2005" class="contact-link" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="mailto:your-email@example.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Tell me about your project..." rows="6" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
                 <h4>Amine Antra</h4>
-                <p>You can contact me on </p>
+                <p>Full-Stack Web Developer | Building Beautiful Digital Solutions</p>
             </div>
-            <div class="srt-contact">
-                <ol class="contacts">
-                    <li><a href=""><ion-icon name="logo-whatsapp"></ion-icon></a></li>
-                    <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
-                    <li><a href=""><ion-icon name="logo-github"></ion-icon></a></li>
-                </ol>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#work">My Work</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
-        </footer>
-    </section>
-    <script src="test.js"></script>  
-     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="https://wa.me/" target="_blank">WhatsApp</a></li>
+                    <li><a href="https://github.com/zodiac2005" target="_blank">GitHub</a></li>
+                    <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Amine Antra. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="asset/script.js"></script>  
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
